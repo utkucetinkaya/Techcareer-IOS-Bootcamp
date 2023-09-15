@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Homework Page Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeworkPageController" customModule="Homework3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vYY-A6-i1z" userLabel="BackgroundStackView">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oGN-j5-fSO">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_image" translatesAutoresizingMaskIntoConstraints="NO" id="umx-A2-K5b">
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="500"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="500" id="ZPQ-gR-T9r"/>
+                                                </constraints>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gmv-tB-8l1">
+                                                <rect key="frame" x="0.0" y="500" width="390" height="344"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="PF3-W9-eBz">
+                                                        <rect key="frame" x="33" y="41.999999999999993" width="324" height="124.33333333333331"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reach safely &amp; easily to your destination" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-RN-knj">
+                                                                <rect key="frame" x="0.0" y="0.0" width="324" height="54.666666666666664"/>
+                                                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Your Taxi With Easiest Way And Get Best Experience Enjoy Your Trip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hm1-G8-I8q">
+                                                                <rect key="frame" x="0.0" y="69.666666666666629" width="324" height="54.666666666666657"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="hm1-G8-I8q" secondAttribute="bottom" id="Mt3-Q9-JB9"/>
+                                                            <constraint firstItem="z8e-RN-knj" firstAttribute="top" secondItem="PF3-W9-eBz" secondAttribute="top" id="klq-xn-rmR"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qUL-zC-TC9">
+                                                        <rect key="frame" x="25" y="196.33333333333337" width="340" height="117.66666666666669"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJY-Tf-nfh" customClass="GradientBackgroundButton" customModule="Homework3" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="340" height="60"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="60" id="kko-Xp-TGD"/>
+                                                                </constraints>
+                                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="Sign up">
+                                                                    <fontDescription key="titleFontDescription" name="Georgia-Bold" family="Georgia" pointSize="17"/>
+                                                                </buttonConfiguration>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                                                        <color key="value" name="GradientColor1"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                                                        <color key="value" name="GradientColor2"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
+                                                                        <point key="value" x="0.0" y="1"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                                                        <point key="value" x="1" y="0.0"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPs-qd-hyn">
+                                                                <rect key="frame" x="0.0" y="70" width="340" height="47.666666666666657"/>
+                                                                <color key="tintColor" systemColor="labelColor"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="Log in">
+                                                                    <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="18"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="qUL-zC-TC9" secondAttribute="bottom" constant="30" id="7aD-Ga-JDU"/>
+                                                    <constraint firstItem="qUL-zC-TC9" firstAttribute="leading" secondItem="Gmv-tB-8l1" secondAttribute="leading" constant="25" id="AHQ-c5-jYo"/>
+                                                    <constraint firstAttribute="trailing" secondItem="PF3-W9-eBz" secondAttribute="trailing" constant="33" id="B93-15-gSh"/>
+                                                    <constraint firstAttribute="trailing" secondItem="qUL-zC-TC9" secondAttribute="trailing" constant="25" id="Dp6-1i-Hkp"/>
+                                                    <constraint firstItem="qUL-zC-TC9" firstAttribute="top" secondItem="PF3-W9-eBz" secondAttribute="bottom" constant="30" id="Qs6-hp-jAF"/>
+                                                    <constraint firstItem="PF3-W9-eBz" firstAttribute="centerX" secondItem="Gmv-tB-8l1" secondAttribute="centerX" id="YnJ-Vo-leO"/>
+                                                    <constraint firstItem="PF3-W9-eBz" firstAttribute="leading" secondItem="Gmv-tB-8l1" secondAttribute="leading" constant="33" id="bdL-ZE-vnv"/>
+                                                    <constraint firstItem="PF3-W9-eBz" firstAttribute="top" secondItem="Gmv-tB-8l1" secondAttribute="top" constant="42" id="hWf-BL-VEd"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="30"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Gmv-tB-8l1" secondAttribute="bottom" id="4Si-0k-eJC"/>
+                                            <constraint firstItem="umx-A2-K5b" firstAttribute="leading" secondItem="oGN-j5-fSO" secondAttribute="leading" id="ExK-OL-o3D"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gmv-tB-8l1" secondAttribute="trailing" id="b78-KG-24r"/>
+                                            <constraint firstAttribute="trailing" secondItem="umx-A2-K5b" secondAttribute="trailing" id="bij-gd-xee"/>
+                                            <constraint firstItem="Gmv-tB-8l1" firstAttribute="top" secondItem="umx-A2-K5b" secondAttribute="bottom" id="uUC-8U-dXg"/>
+                                            <constraint firstItem="Gmv-tB-8l1" firstAttribute="leading" secondItem="oGN-j5-fSO" secondAttribute="leading" id="vtS-a9-mCD"/>
+                                            <constraint firstItem="umx-A2-K5b" firstAttribute="top" secondItem="oGN-j5-fSO" secondAttribute="top" id="zrG-ux-m9l"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="vYY-A6-i1z" secondAttribute="bottom" id="3rH-ob-Od0"/>
+                            <constraint firstItem="vYY-A6-i1z" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Kow-KI-IVD"/>
+                            <constraint firstItem="vYY-A6-i1z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vBR-MH-iib"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vYY-A6-i1z" secondAttribute="trailing" id="y4b-f2-nna"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="16.923076923076923" y="-2.1327014218009479"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="fJY-Tf-nfh">
+            <size key="intrinsicContentSize" width="89.666666666666671" height="33.333333333333336"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="header_image" width="169.33332824707031" height="192"/>
+        <namedColor name="Background">
+            <color red="0.72699999809265137" green="0.81000000238418579" blue="0.93900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GradientColor1">
+            <color red="0.89399999380111694" green="0.18000000715255737" blue="0.054999999701976776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GradientColor2">
+            <color red="0.52799999713897705" green="0.043999999761581421" blue="0.048999998718500137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

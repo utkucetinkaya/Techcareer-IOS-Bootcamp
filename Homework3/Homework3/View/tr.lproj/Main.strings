@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; configuration.title = "Log in"; ObjectID = "dPs-qd-hyn"; */
+"dPs-qd-hyn.configuration.title" = "Giriş yap ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dPs-qd-hyn"; */
+"dPs-qd-hyn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sign up"; ObjectID = "fJY-Tf-nfh"; */
+"fJY-Tf-nfh.configuration.title" = "Kayıt ol";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fJY-Tf-nfh"; */
+"fJY-Tf-nfh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Book Your Taxi With Easiest Way And Get Best Experience Enjoy Your Trip."; ObjectID = "hm1-G8-I8q"; */
+"hm1-G8-I8q.text" = "Taksinizi En Kolay Şekilde Rezerve Edin ve En İyi Deneyimi Elde Edin Seyahatinizin Keyfini Çıkarın.";
+
+/* Class = "UILabel"; text = "Reach safely & easily to your destination"; ObjectID = "z8e-RN-knj"; */
+"z8e-RN-knj.text" = "Hedefinize güvenli ve kolay bir şekilde ulaşın.";
