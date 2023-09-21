@@ -11,6 +11,7 @@ class Anasayfa: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 
     @IBAction func destA(_ sender: Any) {

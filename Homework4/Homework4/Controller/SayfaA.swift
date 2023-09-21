@@ -12,7 +12,6 @@ class SayfaA: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationController?.navigationBar.isHidden = true
     }
     
     @IBAction func destBButton(_ sender: Any) {
