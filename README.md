@@ -16,7 +16,7 @@ https://github.com/utkucetinkaya/Techcareer-IOS-Bootcamp/assets/61903359/21f1366
 https://github.com/utkucetinkaya/Techcareer-IOS-Bootcamp/assets/61903359/82ad5a0c-b218-4412-b364-df5f0302c4c6
 
 
-
-
+## Homework 6
+<img width="435" alt="Ekran Resmi 2023-10-01 11 41 19" src="https://github.com/utkucetinkaya/Techcareer-IOS-Bootcamp/assets/61903359/c7352457-5ee1-41db-8be0-a6eed92f45c6">
 
 
