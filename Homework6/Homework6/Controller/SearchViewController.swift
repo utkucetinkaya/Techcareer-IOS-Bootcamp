@@ -62,4 +62,11 @@ extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
         hucre.searchImageView.image = UIImage(named: program.image ?? "" )
         return hucre
     }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        cell.separatorInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: .greatestFiniteMagnitude)
+        cell.preservesSuperviewLayoutMargins = false
+        cell.layoutMargins = UIEdgeInsets.zero
+    }
 }
